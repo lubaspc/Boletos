@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Boletos</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Practica Final</string>
+    <string name="nav_header_subtitle">Lubin,Jose Carlos,Daniel Eduardo</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Acerca de</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="title_activity_login">Login</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="title_activity_inicio">Inicio</string>
+    <string name="escula">Instituto Tenologico de Toluca</string>
+    <string name="profa">Roció Elizabeth Pulido Alba</string>
+    <string name="pacial">Segundo Parcia</string>
+    <string name="materia">Desarrollo Movil</string>
+    <string name="login">Ingresa tu usuario</string>
+    <string name="pass">Ingresa tu password</string>
+    <string name="checkbox">Vajes Redondos</string>
+    <string name="fechasalida">Fecha de salida</string>
+    <string name="fecharegreso">Fecha de regreso</string>
+    <string name="boletospendietes">Boletos Pedinetes</string>
+    <string name="origen">Origen:</string>
+    <string name="destino">Destino:</string>
+    <string name="linea">Linea:</string>
+    <string name="cuantosvoletos">Custos boletos:</string>
+    <string name="comprar">Comprar</string>
+    <string name="historial_de_boletos">Historial De Boletos</string>
+    <string name="tu_nombre">Tu nombre</string>
+    <string name="tu_edad">Tu Edad</string>
+    <string name="comprar_boletos">Comprar Boletos</string>
+    <string name="boletos_pendietes">Boletos Pendietes</string>
+    <string name="historial">Historial de boletos</string>
+    <string name="lineas_de_autobus">Lineas de autobus</string>
+    <string name="salir">Salir</string>
+    <string name="iniciar_sesion">Iniciar Sesion</string>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                             android:layout_height="match_parent"
+              android:orientation="vertical">
+
+
+    <CheckBox
+            android:text="@string/checkbox"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:textSize="30sp"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="20dp"
+            android:layout_height="wrap_content" android:id="@+id/Redondo"/>
+    <TextView
+            android:text="@string/fechasalida"
+            android:layout_width="match_parent"
+            android:textSize="40sp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_height="wrap_content" android:id="@+id/Fecha1"/>
+    <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/SHora"/>
+    <TextView
+            android:text="@string/fecharegreso"
+            android:textSize="40sp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/Fecha2"/>
+    <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/SHora2" android:spinnerMode="dialog"
+            android:dropDownWidth="match_parent"/>
+</LinearLayout>

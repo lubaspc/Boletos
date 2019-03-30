@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="#b71c1c"
+             tools:context=".Inicio">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                        android:orientation="vertical"
+                      android:background="@color/colorPrimary"
+                      android:gravity="center_vertical"
+                        android:layout_marginHorizontal="70dp"
+                        android:layout_marginVertical="100dp">
+
+            <TextView android:id="@+id/fullscreen_content"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:keepScreenOn="true"
+                      android:textColor="#33b5e5"
+                      android:textStyle="bold"
+                      android:textSize="50sp"
+                      android:gravity="center"
+                      android:text=""/>
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:textSize="20dp"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginTop="10dp"
+                    android:ems="10"
+                    android:id="@+id/users" android:hint="@string/login"/>
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:textSize="20dp"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginTop="10dp"
+                    android:ems="10"
+                    android:id="@+id/contra" android:hint="@string/pass"/>
+            <Button
+                    android:text="@string/iniciar_sesion"
+                    android:layout_width="match_parent"
+                    android:layout_marginHorizontal="20dp"
+                    android:textSize="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content" android:id="@+id/Loger"
+                    style="@style/Widget.AppCompat.Button.Borderless.Colored"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</FrameLayout>
